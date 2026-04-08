@@ -1,0 +1,12 @@
+{
+  "name": "zamtel-sd-workspace-root",
+  "private": true,
+  "description": "App package lives in zamtel-sd-prototype/. Run npm scripts from here or cd into that folder.",
+  "scripts": {
+    "dev": "npm run dev --prefix ./zamtel-sd-prototype",
+    "build": "npm run build --prefix ./zamtel-sd-prototype",
+    "lint": "npm run lint --prefix ./zamtel-sd-prototype",
+    "preview": "npm run preview --prefix ./zamtel-sd-prototype",
+    "install:app": "npm install --prefix ./zamtel-sd-prototype"
+  }
+}
